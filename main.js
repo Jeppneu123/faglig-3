@@ -9,9 +9,6 @@ let ctxw = ctx.width = 1800;
 let ctxh = ctx.height = 900;
 let cx = ctxw/2, cy= ctxh/2;
 
-
-
-
 ctx.fillStyle = "#ccc";
 ctx.font = " 14px monospace";
 
@@ -52,14 +49,12 @@ const chart = new Chart(ctx,
             display:true,
             text: 'Genres',
             color: "#93F1EE",
-
             font:
                 {
                     size: 25,
                 }
         }
             },
-
             y:
             {
                 ticks:
@@ -88,6 +83,31 @@ const chart = new Chart(ctx,
             }
 
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItem) {
+                    return "$ and so worth it !";
+                }
+            }
+        },
+        plugins:
+            {
+                title:
+                {
+                    display: true,
+                    text: " Denne graf viser mængden af køb i genre ud fra genre",
+                    font:
+                        {
+                            size: 30,
+                        }
+                },
+                legend:
+                    {
+                        position: "bottom",
+                        margin: 20
+                    }
+            }
+
     }
 });
 

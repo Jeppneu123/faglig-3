@@ -21,7 +21,7 @@ div
 
 div
 {
-    width: 1300px;
+    width: 1500px;
     height: 900px;
 }
 
@@ -58,19 +58,17 @@ div
     animation: expand 4s infinite;
     position: absolute;
     border-radius: 27px;
-    opacity: 0.1;
 }
 */
-
 #headline
 {
     position: absolute;
     left: 8.3%;
-    top: -4%;
+    top: -3.2%;
     font-weight: bold;
     font-size: 260%;
-    border-radius: 12px;
-    padding: 55px;
+    border-radius: 100px;
+    padding: 40px;
     background: #041F1E;
     color: #00CC99;
     opacity: 0.99;
