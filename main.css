@@ -1,0 +1,77 @@
+body
+{
+    background: #385357;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 330%;
+}
+
+div
+{
+    margin: auto;
+    width: auto;
+}
+
+div
+{
+    width: 1800px;
+    height: 900px;
+}
+
+#chart
+{
+    margin-top: 140px;
+    background: #041F1E;
+    border: solid 8px #00CC99;
+    border-radius: 40px;
+    padding: 25px;
+    box-shadow: #00CC99 9px 9px 12px ;
+    transition: 2s;
+}
+
+#chart:hover
+{
+    transform: scale(1.08);
+    box-shadow: #041F1E 15px 15px 22px;
+
+}
+#footer
+{
+    float: right;
+}
+
+/*
+.chartShadow
+{
+    background: #EF6351;
+    width: 1400px;
+    height: 800px;
+    top: 8.5%;
+    left: 11%;
+    animation: expand 4s infinite;
+    position: absolute;
+    border-radius: 27px;
+    opacity: 0.1;
+}
+*/
+
+#headline
+{
+    position: absolute;
+    left: 8.3%;
+    top: -4%;
+    font-weight: bold;
+    font-size: 260%;
+    border-radius: 12px;
+    padding: 55px;
+    background: #041F1E;
+    color: #00CC99;
+    opacity: 0.99;
+}
+
+
