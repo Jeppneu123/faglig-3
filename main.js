@@ -9,9 +9,7 @@ let ctxw = ctx.width = 1800;
 let ctxh = ctx.height = 900;
 let cx = ctxw/2, cy= ctxh/2;
 
-let grd = ctx.createLinearGradient(0,0,0,cy);
-grd.addColorStop(0,"hsla(167,72%,60%,1)");
-grd.addColorStop(1, "hsla(167,72%,60%,0)");
+
 
 
 ctx.fillStyle = "#ccc";
