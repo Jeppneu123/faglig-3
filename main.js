@@ -103,7 +103,8 @@ const chart = new Chart(ctx,
                 },
                 legend:
                     {
-                        position: "bottom"
+                        position: "bottom",
+                        margin: 20
                     }
             }
 
