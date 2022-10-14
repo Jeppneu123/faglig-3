@@ -19,59 +19,115 @@ div
     width: auto;
 }
 
-div
+
+*
 {
+    margin: 0;
+    padding: 0;
+    font-family: "Palatino Linotype";
+}
+body
+{
+    background: sandybrown;
+}
+a
+{
+    list-style-type: none;
+    text-decoration: none;
+    mso-level-style-link: none;
+
+}
+li
+{
+    text-align: center;
+    justify-content: center;
+
+    margin: 20px;
+
+    font-weight: bolder;
+    background:#FFE2D1;
+    color: #55917F;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 50px;
+}
+.chart
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    margin: 0 auto;
     width: 1500px;
     height: 900px;
+
+    background:#FFE2D1;
+    border-radius: 17px;
+
+    box-shadow: #5E4C5A 0px 0px 10px 0px ;
+
+    transition: 1.2s;
+
 }
 
-#chart
+#myChart1
 {
-    margin-top: 140px;
-    background: #041F1E;
-    border: solid 8px #00CC99;
-    border-radius: 40px;
-    padding: 25px;
-    box-shadow: #00CC99 9px 9px 12px ;
-    transition: 2s;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
-#chart:hover
+.headline
 {
-    transform: scale(1.08);
-    box-shadow: #041F1E 15px 15px 22px;
+    padding: 0;
+    margin: 20px;
+    color: #5E4C5A;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.chart:hover
+{
+    box-shadow: lightgrey 0px 0px 7px 5px;
+    border:solid 3px lightgrey;
+    transform: scale(1.2);
+}
+
+
+#pie-wrapper
+{
+    width: 700px;
+    height: 700px;
+    padding: 20px;
+}
+
+img
+{
+    border-radius: 20px;
+    width: 1300px;
+    height: 700px;
+}
+
+#sql-wrapper
+{
+    justify-content: center;
+}
+
+h1
+{
+    margin-top: 30px;
 
 }
-#footer
+h2
 {
     float: right;
+    font-weight: bolder;
 }
-
-/*
-.chartShadow
-{
-    background: #EF6351;
-    width: 1400px;
-    height: 800px;
-    top: 8.5%;
-    left: 11%;
-    animation: expand 4s infinite;
-    position: absolute;
-    border-radius: 27px;
-}
-*/
-#headline
-{
-    position: absolute;
-    left: 8.3%;
-    top: -3.2%;
-    font-weight: bold;
-    font-size: 260%;
-    border-radius: 100px;
-    padding: 40px;
-    background: #041F1E;
-    color: #00CC99;
-    opacity: 0.99;
-}
-
-
