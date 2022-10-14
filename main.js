@@ -23,7 +23,7 @@ const dataBar =
                 'rgba(180, 180, 180, 0.5)',
                 'rgba(180, 180, 180, 0.5)',
                 'rgba(180, 180, 180, 0.5)',
-                'rgba(57, 123, 82, 1)'
+                'rgba(245, 143, 41, 1)'
             ],
             borderColor: [
                 'rgba(180, 180, 180, 0.5)',
@@ -31,7 +31,7 @@ const dataBar =
                 'rgba(180, 180, 180, 0.5)',
                 'rgba(180, 180, 180, 0.5)',
                 'rgba(180, 180, 180, 0.5)',
-                'rgba(57, 123, 82, 1)'
+                'rgba(245, 143, 41, 1)'
             ],
             borderWidth: 1,
             clip: false
@@ -63,10 +63,10 @@ const configBar =
                                 {
                                     display:true,
                                     text: 'Genres',
-                                    color: "#F58F29",
+                                    color: "#5E4C5A",
                                     font:
                                         {
-                                            size: 24
+                                            size: 30
                                         },
                                     padding: 20
                                 }
@@ -90,10 +90,10 @@ const configBar =
                                 {
                                     display: true,
                                     text: 'Earnings in Dollars $ ',
-                                    color: "#F58F29",
+                                    color: "#5E4C5A",
                                     font:
                                         {
-                                            size: 24,
+                                            size: 30,
                                         },
 
                                     padding: 25
@@ -132,17 +132,18 @@ const myChart = new Chart (
 // setup
 const dataDoughnut =
     {
-        labels: ['All other genres ','Rock'],
+        labels: ['All other genres','Rock'],
         datasets: [{
             label: 'doughnut',
-            data: [((jazz+tvShows+alternativePunk+metal+latin)), rock],
+            data: [rock,((jazz+tvShows+alternativePunk+metal+latin))],
             backgroundColor: [
+                'rgba(245, 143, 41, 1)',
                 'rgba(180, 180, 180, 0.5)',
-                'rgba(57, 123, 82, 1)',
             ],
             borderColor: [
+                'rgba(245, 143, 41, 1)',
                 'rgba(180, 180, 180, 0.5)',
-                'rgba(57, 123, 82, 1)'
+
             ],
             borderWidth: 1,
 
