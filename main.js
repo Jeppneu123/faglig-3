@@ -49,10 +49,10 @@ const configBar =
                         {
                             ticks:
                                 {
-                                    color: "#55917F",
+                                    color: "Black",
                                     font:
                                         {
-                                            size:20,
+                                            size:25,
                                         },
                                 },
                             grid:
@@ -66,7 +66,7 @@ const configBar =
                                     color: "#5E4C5A",
                                     font:
                                         {
-                                            size: 20
+                                            size: 30
                                         },
                                     padding: 20
                                 }
@@ -75,10 +75,10 @@ const configBar =
                         {
                             ticks:
                                 {
-                                    color: "#55917F",
+                                    color: "Black",
                                     font:
                                         {
-                                            size:20
+                                            size:25
                                         }
                                 },
                             beginAtZero: true,
@@ -93,7 +93,7 @@ const configBar =
                                     color: "#5E4C5A",
                                     font:
                                         {
-                                            size: 20,
+                                            size: 30,
                                         },
 
                                     padding: 25
@@ -110,9 +110,9 @@ const configBar =
 
                             labels:
                                 {
-                                    color: "#55917F",
+                                    color: "Black",
                                     font: {
-                                        size: 22
+                                        size: 25
                                     }
                                 }
                         }
@@ -137,12 +137,12 @@ const dataDoughnut =
             label: 'doughnut',
             data: [rock,((jazz+tvShows+alternativePunk+metal+latin))],
             backgroundColor: [
-                'rgba(245, 143, 41, 1)',
                 'rgba(180, 180, 180, 0.5)',
+                'rgba(245, 143, 41, 1)',
             ],
             borderColor: [
+                'rgb(180, 180, 180, 0.5)',
                 'rgba(245, 143, 41, 1)',
-                'rgba(180, 180, 180, 0.5)',
 
             ],
             borderWidth: 1,
@@ -165,9 +165,9 @@ const configDoughnut =
 
                                 labels:
                                     {
-                                        color: "#55917F",
+                                        color: "Black",
                                         font: {
-                                            size: 22
+                                            size: 25
                                         }
                                     }
                             }
