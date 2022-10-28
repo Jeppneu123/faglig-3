@@ -7,7 +7,6 @@ h1
 {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
     font-weight: bold;
     font-size: 330%;
 }
@@ -29,33 +28,16 @@ body
 {
     background: sandybrown;
 }
+
 a
 {
     list-style-type: none;
     text-decoration: none;
     mso-level-style-link: none;
-
-}
-li
-{
-    text-align: center;
-    justify-content: center;
-
-    margin: 20px;
-
-    font-weight: bolder;
-    background:#FFE2D1;
-    color: #55917F;
 }
 
-ul
-{
-    list-style-type: none;
-    margin: 50px;
-}
 .chart
 {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,8 +45,8 @@ ul
 
     padding: 20px;
     margin: 0 auto;
-    width: 1500px;
-    height: 900px;
+    width: 1200px;
+    height: 770px;
 
     background:#FFE2D1;
     border-radius: 17px;
@@ -79,18 +61,16 @@ ul
 {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
+
 }
 
 .headline
 {
-    padding: 0;
-    margin: 20px;
     color: #5E4C5A;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin: 0px auto;
 }
 
 .chart:hover
@@ -99,7 +79,6 @@ ul
     border:solid 3px lightgrey;
 }
 
-
 #pie-wrapper
 {
     width: 700px;
@@ -107,20 +86,5 @@ ul
     padding: 20px;
 }
 
-img
-{
-    border-radius: 20px;
-    width: 1300px;
-    height: 700px;
-}
 
-#sql-wrapper
-{
-    justify-content: center;
-}
 
-h1
-{
-    margin: 55px;
-    font-size: 45px;
-}

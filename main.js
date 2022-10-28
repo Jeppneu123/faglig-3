@@ -52,7 +52,7 @@ const configBar =
                                     color: "#55917F",
                                     font:
                                         {
-                                            size:25,
+                                            size:20,
                                         },
                                 },
                             grid:
@@ -66,7 +66,7 @@ const configBar =
                                     color: "#5E4C5A",
                                     font:
                                         {
-                                            size: 30
+                                            size: 20
                                         },
                                     padding: 20
                                 }
@@ -78,7 +78,7 @@ const configBar =
                                     color: "#55917F",
                                     font:
                                         {
-                                            size:25
+                                            size:20
                                         }
                                 },
                             beginAtZero: true,
@@ -93,7 +93,7 @@ const configBar =
                                     color: "#5E4C5A",
                                     font:
                                         {
-                                            size: 30,
+                                            size: 20,
                                         },
 
                                     padding: 25
